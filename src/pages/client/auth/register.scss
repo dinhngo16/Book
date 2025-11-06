@@ -1,0 +1,54 @@
+
+/* Form chung */
+.formChung {
+  margin: 40px auto;
+  padding: 30px 40px;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+/* Tiêu đề */
+.tiêuĐề {
+  text-align: center;
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 24px;
+  text-transform: uppercase;
+  color: #1677ff; /* màu xanh primary của AntD */
+}
+.formChung .ant-form-item-label > label {
+  white-space: nowrap; /* giữ chữ trên một dòng */
+}
+
+
+/* Input */
+.formChung .ant-input,
+.formChung .ant-input-password {
+  border-radius: 8px;
+  padding: 8px 12px;
+}
+
+/* Checkbox */
+.formChung .ant-checkbox-wrapper {
+  font-size: 14px;
+  color: #555;
+}
+
+/* Button */
+.formChung .ant-btn-primary {
+  border-radius: 8px;
+  height: 40px;
+  font-size: 16px;
+  font-weight: 500;
+}
+.footerForm {
+  text-align: center;
+  margin-top: 12px;
+  font-size: 14px;
+}
+
+.footerForm a {
+  color: #1677ff; /* màu xanh mặc định của Ant Design */
+  font-weight: 500;
+}
